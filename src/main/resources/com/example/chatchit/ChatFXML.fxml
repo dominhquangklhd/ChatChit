@@ -2,6 +2,7 @@
 
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -35,7 +36,6 @@
             <Image url="@../../../Pic/sendPic.PNG" />
          </image>
       </ImageView>
-      <Label layoutX="69.0" layoutY="549.0" prefHeight="43.0" prefWidth="269.0" style="-fx-border-color: BLUE;" />
       <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="349.0" layoutY="546.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Pic/sendMessage.PNG" />
@@ -48,5 +48,6 @@
             <Image url="@../../../Pic/dog.jpg" />
          </image>
       </ImageView>
+      <TextField layoutX="71.0" layoutY="540.0" prefHeight="53.0" prefWidth="269.0" />
    </children>
 </AnchorPane>
